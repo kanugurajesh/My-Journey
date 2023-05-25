@@ -22,7 +22,7 @@ ul {
         display: flex;
         flex-direction: column;
         gap: 15px;
-        margin-top: 10px;
+        margin: 10px;
     }
 
     #header-one {
@@ -48,8 +48,9 @@ ul {
     }
 
     #header-two {
+        margin: auto;
         padding: 10px;
-        width: 100%;
+        width: 90%;
         height: 200px;
         background-size: cover;
         background-position: center;
