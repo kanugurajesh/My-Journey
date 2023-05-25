@@ -27,8 +27,11 @@ ul {
     #header-one {
         display: flex;
         justify-content: center;
-        align-items: center;
         text-align: center;
+    }
+
+    #header-one-ul-2 img {
+        width: 30px;
     }
 
     #header-one nav {
@@ -37,16 +40,10 @@ ul {
         gap: 15px;
     }
 
-    #header-one-ul-2 img {
-        width: 30px;
-    }
-
-    ul div {
-        display: inline-block;
-    }
-
     #header-one-ul-2 {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        gap: 15px;
     }
+
 }
