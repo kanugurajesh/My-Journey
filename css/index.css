@@ -7,11 +7,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-body {
-    /* width: 100vw; */
-    /* height: 100vh; */
-}
-
 a {
     text-decoration: none;
     color: #000;
@@ -178,23 +173,13 @@ ul {
         position: relative;
     }
 
-    /* draw a line to the left of the div in the footer using ::before */
-
-    footer div::before {
-        content: '';
-        position: absolute;
-        left: 10%;
-        /* left: 50%; */
-        /* transform: translateX(50%); */
-        width: 5px;
-        height: 85%;
-        /* background-color: #000; */
-        background: linear-gradient(to right, #FF6F61, #FF6F61);
-        opacity: 0.8;
+    footer {
+        padding-left: 36px;
     }
 
-    section div {
-        /* background-color: rebeccapurple; */
+    footer div {
+        border-left: 4px solid;
+        border-image: linear-gradient(to bottom, #FF6F61, #FF6F61) 1;
     }
 
     section div {
@@ -202,5 +187,9 @@ ul {
         border-left-style: solid;
         border-left-width: 5px;
 
+    }
+
+    span#one {
+        border-bottom: 4px solid rgba(255, 0, 0, 0.5);
     }
 }
