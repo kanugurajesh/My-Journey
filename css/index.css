@@ -12,6 +12,11 @@ body {
     /* height: 100vh; */
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
 ul {
     list-style: none;
 }
@@ -109,5 +114,52 @@ ul {
         align-items: center;
         text-align: center;
         gap: 20px;
+    }
+
+    footer a:hover {
+        transform: scale(1.1);
+    }
+
+    footer p {
+        font-size: 1rem;
+        color: #000;
+        opacity: 0.8;
+        line-height: 1.5;
+    }
+
+    span {
+        font-weight: bolder;
+    }
+
+    /* apply linear gradient on span */
+    #twitter {
+        background: linear-gradient(to right, #1DA1F2, #0E71C8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    /* apply the gradietn fot github */
+    #github {
+        background: linear-gradient(to right, #211F1F, #6E6E6E);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #linkedin {
+        background: linear-gradient(to right, #0077B5, #046698);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #email {
+        background: linear-gradient(to right, #D44638, #D44638);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #website {
+        background: linear-gradient(to right, #FF6F61, #FF6F61);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
