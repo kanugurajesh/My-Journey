@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    background-color: #f5f5f5;
+    width: 100vw;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+@media (min-width: 320px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #header-one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #header-one nav {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #header-one nav ul:nth-of-type(2) img {
+        width: 30px;
+    }
+
+    ul div {
+        display: inline-block;
+    }
+
+    #header-one-ul-2 {
+        display: flex;
+        justify-content: space-between;
+    }
+}
