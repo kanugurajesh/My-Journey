@@ -8,8 +8,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw; */
+    /* height: 100vh; */
 }
 
 ul {
@@ -21,6 +21,7 @@ ul {
     header {
         display: flex;
         flex-direction: column;
+        gap: 15px;
         margin-top: 10px;
     }
 
@@ -45,5 +46,14 @@ ul {
         flex-direction: column;
         gap: 15px;
     }
+
+    #header-two {
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        background-image: url("/images/laptop-me.jpg");
+    }
+
 
 }
