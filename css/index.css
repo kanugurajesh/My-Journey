@@ -74,4 +74,23 @@ ul {
         text-align: center;
         opacity: 0.8;
     }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        /* padding: 20px 15px 20px 15px; */
+        padding: 20px 15px;
+        /* set background color */
+        background-color: #f5f5f5;
+        /* set box shadow */
+    }
+
+    main section {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
 }
