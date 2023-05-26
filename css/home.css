@@ -26,7 +26,10 @@ a {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin: 10px;
+    margin: 20px;
+    border-left: #0077B5 5px solid;
+    padding: 25px;
+    padding-left: 50px;
 }
 
 #div1-header img {
