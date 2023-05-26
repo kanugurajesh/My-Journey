@@ -41,14 +41,13 @@ a {
 }
 
 #div1-footer {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
     margin: 10px;
     text-align: center;
     font-weight: bolder;
     margin-top: 15px;
     margin-bottom: 0px;
+    font-size: 1.2rem;
+
 }
 
 .div1-section {
@@ -57,6 +56,13 @@ a {
     gap: 15px;
     margin: 10px;
     line-height: 1.5;
+    border-left: #0077B5 5px solid;
+    padding: 15px;
+}
+
+#div1-footer span {
+    text-shadow: 0 0 10px blue;
+
 }
 
 ul {
@@ -286,4 +292,9 @@ span#one {
     footer {
         padding-left: 36px;
     }
+
+    #div1-header img {
+        height: 400px;
+    }
+
 }
