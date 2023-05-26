@@ -12,6 +12,12 @@ a {
     color: #000;
 }
 
+.cover {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+
 #div1 {
     padding: 40px 10px;
     width: 98%;
@@ -247,6 +253,15 @@ span#one {
     border-bottom: 4px solid rgba(255, 0, 0, 0.5);
 }
 
+.linker {
+    text-decoration: none;
+    color: #FF6F61;
+    opacity: 0.8;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
 @media (min-width: 780px) {
 
     #header-one {
@@ -279,7 +294,7 @@ span#one {
     }
 
     main #div2 {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     }
 
     #header-two {
@@ -300,4 +315,25 @@ span#one {
         height: 400px;
     }
 
+    .cover {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (min-height:410px) {
+    .cover {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (min-height: 500px) {
+    .cover {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
 }
