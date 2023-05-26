@@ -77,7 +77,8 @@ header {
 
 main {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-columns: repeat(1, 1fr); */
+    grid-template-columns: repeat(1, minmax(280px, 1fr));
     gap: 15px;
     padding: 20px 15px;
     background-color: #f5f5f5;
