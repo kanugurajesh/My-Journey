@@ -29,3 +29,25 @@ I'm always open to collaboration, discussion, and connecting with like-minded in
 Let's connect and make the coding world even more amazing together! 🌐✨
 
 Happy coding!
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://rajeshportfolio.me/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rajesh-kanugu-aba8a3254/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/exploringengin1)
+
+## My Tech Stack
+
+- Next.js
+- Sveltekit
+- Express
+- Django
+- Flask
+- Fastapi
+- Python
+- Data processing with pandas and numpy
+- Docker
+
+## Authors
+
+- [@kanugurajesh](https://github.com/kanugurajesh)
+
