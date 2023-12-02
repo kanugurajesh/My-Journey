@@ -37,15 +37,9 @@ Happy coding!
 
 ## My Tech Stack
 
-- Next.js
-- Sveltekit
-- Express
-- Django
-- Flask
-- Fastapi
-- Python
-- Data processing with pandas and numpy
-- Docker
+- Html
+- Css
+- Javascript
 
 ## Authors
 
