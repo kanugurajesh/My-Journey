@@ -51,3 +51,10 @@ Happy coding!
 
 - [@kanugurajesh](https://github.com/kanugurajesh)
 
+## Support
+
+For support, you can buy me a coffee
+
+<a href="https://www.buymeacoffee.com/kanugurajen" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/kanugurajesh/Image-Classification/blob/main/LICENSE.txt)
